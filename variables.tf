@@ -1,7 +1,6 @@
 variable "backend_resource_group_name" {
   type        = string
   description = "Name of the resource group the storage account should be placed in. Needs to be created outside of this module."
-  default     = "tfstates"
 }
 
 variable "backend_resource_tags" {
