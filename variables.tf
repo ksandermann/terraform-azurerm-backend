@@ -5,7 +5,7 @@ variable "backend_resource_group_name" {
 
 variable "backend_resource_tags" {
   type        = map(string)
-  description = "Tags to add to the storage account and storage container resources."
+  description = "Tags to add to the storage account resources."
   default = {
     "content"    = "terraform statefiles"
     "persistent" = "true"
